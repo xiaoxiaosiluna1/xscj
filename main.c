@@ -159,6 +159,8 @@ int main(){
         }
          if(code==8)
         {
+            printf("dianjihuichetuichuxitong\n");
+            break;
             
         }
     }
