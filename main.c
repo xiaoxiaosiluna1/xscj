@@ -34,9 +34,11 @@ int main(){
             int yuwen;
             scanf("%d",&yuwen);
             arr[index].yuwen=yuwen;
+            printf("qingshuruxueshengshuxuechengji:\n");
             int shuxue;
             scanf("%d",&shuxue);
             arr[index].shuxue=shuxue;
+            printf("qingshuruxueshengyingyuchengji:\n");
             int yingyu;
             scanf("%d",&yingyu);
             arr[index].yingyu=yingyu;
@@ -45,6 +47,44 @@ int main(){
             char x;
             scanf("%c",&x);
             scanf("%c",&x);
+        }
+        if(code==2)
+        {
+
+        }
+         if(code==3)
+        {
+          printf("suoyouxueshengchengjiruxia:\n");
+          for(int i =0;i<index; i++)
+          {
+              printf("di%dgexueshengchengjiwei%d,%d,%d\n",i+1,arr[i].yuwen,arr[i].shuxue,arr[i].yingyu);
+          }
+               printf("xianshichenggong,dianjihuichejixu\n");
+              char x;
+              scanf("%c",&x);
+              scanf("%c",&x);
+          
+
+        }
+         if(code==4)
+        {
+            
+        }
+         if(code==5)
+        {
+            
+        }
+         if(code==6)
+        {
+            
+        }
+         if(code==7)
+        {
+            
+        }
+         if(code==8)
+        {
+            
         }
     }
     return 0;
