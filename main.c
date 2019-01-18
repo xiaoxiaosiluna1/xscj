@@ -114,10 +114,27 @@ int main(){
             printf("shaixuanwancheng,dianjihuichejixu\n");
 
         }
-         if(code==6)
-        {
+        if(code==6){
+            printf("zongfenzuigaodexueshengwei:\n");
+            int max=0;
+            int stuID=0;
             
+            for(int i = 0; i < index; i++)
+            {
+                 int sum=arr[i].yuwen+arr[i].shuxue+arr[i].yingyu;
+                 if(max<sum){
+                     max=sum;
+                     stuID=i;
+                 }
+            }
+            printf("zongfenzuigaodexueshengxingmingwei%s,yuwen%d,shuxue%d,yingyu%d\n",arr[stuID].name,arr[stuID].yuwen,arr[stuID].shuxue,arr[stuID].yingyu);
+            printf("dianjihuichejixu\n");
+             char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
+
         }
+
          if(code==7)
         {
             
