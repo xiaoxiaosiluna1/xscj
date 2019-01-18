@@ -84,7 +84,19 @@ int main(){
         }
          if(code==4)
         {
-            
+            for (int i = 0; i < index; i++)
+            {
+              int sum = arr[i].yuwen + arr[i].shuxue + arr[i].yingyu;
+
+                if (sum < 180)
+                {
+                   printf("di%dgexuesheng%schengjibuhege\n",i+1,arr[i].name); 
+                }
+            }
+            printf("shanxuanwancheng,dianjihuichejixu\n");
+            char x;
+            scanf("%c",&x);
+            scanf("%c",&x);
         }
          if(code==5)
         {
