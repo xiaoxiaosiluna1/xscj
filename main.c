@@ -50,8 +50,24 @@ int main(){
         }
         if(code==2)
         {
+            printf("shanchuxueshengchengji\n");
+            if(index>0)
+            {
+                index--;
+                printf("shanchuchenggong,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
+            else{
+                printf("shanchushibai,dianjihuichejixu\n");
+                char x;
+                scanf("%c",&x);
+                scanf("%c",&x);
+            }
 
         }
+
          if(code==3)
         {
           printf("suoyouxueshengchengjiruxia:\n");
